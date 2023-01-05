@@ -88,6 +88,7 @@ footer{
 	margin: 0 0 1em;
 	font-weight: bold;
 	clear: left;
+	color: rgba(0, 0, 0, 1);
 }
 
 .titulo-principal:first-letter {
@@ -153,6 +154,13 @@ footer{
 
 .imagem-beneficios {
 	width: 60%;
+	opacity: 100%;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px black;
+}
+
+.imagem-beneficios:hover {
+	opacity: 30%;
 }
 
 .video {
