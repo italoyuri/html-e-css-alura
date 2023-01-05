@@ -55,7 +55,6 @@ footer{
 .copyright {
 	color: white;
 	font-size: 13px;
-	margin-top: 20px;
 }
 
 /* configuração da index */
@@ -274,4 +273,34 @@ thead {
 td, th{
 	border: 1px solid black;
 	padding: 8px 15px;
+}
+
+/* media query */
+@media screen and (max-width: 480px) {
+
+.caixa, .principal, .mapa-conteudo, .conteudo-beneficios, .video, .produtos{
+	width: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+.navegacao {
+	position: static;
+}
+
+.lista-beneficios, .imagem-beneficios {
+	width: 100%;
+}
+
+.produtos li{
+	display: block;
+	width: 100%;
+
+}
+
+.imagem-produtos {
+	width: 100%;
+}
 }
