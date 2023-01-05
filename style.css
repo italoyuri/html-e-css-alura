@@ -152,3 +152,39 @@ td, th{
 	border: 1px solid black;
 	padding: 8px 15px;
 }
+
+
+/* css da indez.html */
+.banner {
+	 width:100%;
+}
+
+.titulo-principal{
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	font-weight: bold;
+	clear: left;
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.imagemBeneficios {
+	width: 60%;
+}
+
+.utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}

@@ -1,6 +1,4 @@
-#banner {
-	 width:100%;
-}
+
 
 .principal {
 	background: #CCCCCC;
@@ -11,11 +9,7 @@
 	font-size: 30px;
 }
 
-.titulo-centralizado{
-	text-align: center;
-	font-weight: bold;
-	padding: 10px;
-}
+
 
 p {
 	text-align: center;
