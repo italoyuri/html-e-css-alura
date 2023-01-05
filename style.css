@@ -163,6 +163,7 @@ td, th{
 	text-align: center;
 	font-size: 2em;
 	margin: 0 0 1em;
+	padding: 20px;
 	font-weight: bold;
 	clear: left;
 }
@@ -187,4 +188,22 @@ td, th{
 	width: 120px;
 	float: left;
 	margin: 0 20px 20px 0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.mapa {
+	padding: 3em 0;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.video {
+	margin: 1em auto;
+	width: 560px;
 }
